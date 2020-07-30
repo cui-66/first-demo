@@ -1,0 +1,99 @@
+Arguments: 
+  /home/vagrant/.nvm/versions/node/v12.1.0/bin/node /home/vagrant/.nvm/versions/node/v12.1.0/bin/yarn
+
+PATH: 
+  /home/vagrant/.yarn/bin:/home/vagrant/.config/yarn/global/node_modules/.bin:/home/vagrant/ImageMagick-7.0.8/bin:/home/vagrant/google-cloud-sdk/bin:/home/vagrant/nvim-osx64/bin:/home/vagrant/.yarn/bin:/home/vagrant/.config/yarn/global/node_modules/.bin:/home/vagrant/ImageMagick-7.0.8/bin:/home/vagrant/google-cloud-sdk/bin:/home/vagrant/nvim-osx64/bin:/home/vagrant/.nvm/versions/node/v12.1.0/bin:/home/vagrant/.rvm/gems/ruby-2.6.5/bin:/home/vagrant/.rvm/gems/ruby-2.6.5@global/bin:/home/vagrant/.rvm/rubies/ruby-2.6.5/bin:/usr/local/bin:/usr/local/sbin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/vagrant/.rvm/bin:/home/vagrant/.yadr/bin:/home/vagrant/.yadr/bin/yadr:/home/vagrant/Android/sdk/platform-tools:/home/vagrant/Android/sdk/tools/:/home/vagrant/.nvm/versions/node/v12.1.0/bin:/usr/local/go/bin:/home/vagrant/go/bin:/home/vagrant/Android/sdk/platform-tools:/home/vagrant/Android/sdk/tools/:/home/vagrant/.nvm/versions/node//bin:/usr/local/go/bin:/home/vagrant/go/bin:/home/vagrant/.rvm/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.1.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/style-jsx-plugin-postcss: Not found
+      at Request.params.callback [as _callback] (/home/vagrant/.nvm/versions/node/v12.1.0/lib/node_modules/yarn/lib/cli.js:66987:18)
+      at Request.self.callback (/home/vagrant/.nvm/versions/node/v12.1.0/lib/node_modules/yarn/lib/cli.js:140748:22)
+      at Request.emit (events.js:196:13)
+      at Request.<anonymous> (/home/vagrant/.nvm/versions/node/v12.1.0/lib/node_modules/yarn/lib/cli.js:141720:10)
+      at Request.emit (events.js:196:13)
+      at IncomingMessage.<anonymous> (/home/vagrant/.nvm/versions/node/v12.1.0/lib/node_modules/yarn/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:284:20)
+      at IncomingMessage.emit (events.js:201:15)
+      at endReadableNT (_stream_readable.js:1130:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:17)
+
+npm manifest: 
+  {
+    "name": "first-demo",
+    "license": "MIT",
+    "browserslist": [
+      ">1%",
+      "last 4 versions",
+      "Firefox ESR",
+      "ie >= 9"
+    ],
+    "scripts": {
+      "dev": "next",
+      "build": "next build",
+      "start": "next start",
+      "lint-js": "eslint . --ignore-pattern '/node_modules/' --ignore-pattern '/.next/'",
+      "test": "jest",
+      "fix-js": "yarn run lint-js --fix"
+    },
+    "dependencies": {
+      "@material-ui/core": "^4.9.11",
+      "@material-ui/icons": "^4.9.1",
+      "@material-ui/lab": "^4.0.0-alpha.50",
+      "@mdx-js/loader": "^1.6.1",
+      "@next/bundle-analyzer": "^9.3.1",
+      "@next/mdx": "^9.4.1",
+      "@sentry/browser": "^5.15.1",
+      "@sentry/node": "^5.15.2",
+      "@zeit/next-source-maps": "^0.0.3",
+      "animate.css": "^4.1.0",
+      "babel-plugin-import": "^1.13.0", "babel-plugin-root-import": "^6.4.1",
+      "dayjs": "^1.8.24",
+      "immutable": "^4.0.0-rc.12",
+      "isomorphic-unfetch": "^3.0.0",
+      "localStorage": "^1.0.4",
+      "lodash": "^4.17.15",
+      "lost": "^8.3.1",
+      "next": "9.3.0",
+      "next-compose-plugins": "^2.2.0",
+      "next-progressbar": "^1.0.0",
+      "next-redux-wrapper": "^5.0.0",
+      "node-sass": "^4.12.0",
+      "nprogress": "^0.2.0",
+      "postcss-nested": "^4.2.1",
+      "pure-react-carousel": "^1.27.1",
+      "qiniu-js": "^2.5.5",
+      "qrcode.react": "^1.0.0",
+      "react": "^16.13.0",
+      "react-back-top": "^1.0.4",
+      "react-copy-to-clipboard": "^5.0.1",
+      "react-coverflow": "^0.2.20",
+      "react-dom": "^16.8.6",
+      "react-lazyload": "^2.6.7",
+      "react-progressive-image": "^0.6.0",
+      "react-redux": "^7.1.1",
+      "redux": "^4.0.5",
+      "redux-thunk": "^2.3.0",
+      "style-jsx-plugin-postcss": "^2.0.1" 
+    },
+    "postcss": {
+      "plugins": {
+        "lost": {},
+        "postcss-nested": {}
+      }
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
